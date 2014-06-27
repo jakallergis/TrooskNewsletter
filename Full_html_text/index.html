@@ -226,7 +226,55 @@
 								background-image: url(newimage/p3-bg.png)
 							}
 							
+							#otherProductsTab {
+								background-image: url(newimages/tab-other-products.png);
+								width: 684px;
+								height: 60px;
+							}
 							
+							#otherProductstabTitle {
+								color: #fff;
+								font-family: "Times New Roman", Times, serif;
+								text-align: left;
+								font-size: 24px;
+								padding-left: 45px;
+								padding-top: 15px;						
+								}
+								
+							#otherProductstabContext {
+								color: #de5600;
+								font-family: "Times New Roman", Times, serif;
+								text-align: left;
+								font-size: 19px;
+								font-weight: 400;
+								padding-left: 0px;
+								padding-top: 20px;
+							}
+							
+							#otherProduct1 {
+								background-image: url(newimage/other-product-1-bg.png)
+								width: 240px;
+							}
+							
+							#otherProduct1Image {
+								margin: 20px;
+							}
+							
+							#otherProduct1Context {
+								color: red;
+							}
+							
+							otherProduct2 {
+								background-image: url(newimage/other-product-2-bg.jpg)
+								width: 204px;
+								
+							}
+							
+							otherProduct3 {
+								background-image: url(newimage/other-product-3-bg.png)
+								width: 240px;
+							
+							}
 
 	                      span.yshortcuts { color:#fff; background-color:none; border:none;}
 	                      span.yshortcuts:hover,
@@ -284,7 +332,7 @@
             </tr>
         </table> 
 
-		<!-- Refference -->
+		<!-- Reference -->
 		<!-- Header Table 
 		
 		<table cellpadding="0" cellspacing="0" border="0" width="684" align="center">
@@ -382,7 +430,7 @@
 		</table>
 		
 		
-		<!-- Refference -->
+		<!-- Reference -->
 		<!-- Navigation Table
 		
 		<table cellpadding="0" cellspacing="0" border="0" width="688" align="center">
@@ -505,7 +553,7 @@
 		</table>
 		
 		
-		<!-- Refference -->	
+		<!-- Reference -->	
 		<!-- Products Table
 		<table cellpadding="0" cellspacing="0" border="0" width="684" align="center">
 			<tr>
@@ -695,7 +743,8 @@
 		</table>
 		
 	
-		<!-- other products tab -->
+		<!-- Reference -->
+		<!-- Other Products Tab
 		<table cellpadding="0" cellspacing="0" border="0" width="684" align="center">
 			<tr>
 				<td mc:edit="otherproducttab" valign="top">
@@ -706,7 +755,27 @@
 			</tr>
 		</table>
 		
-		<!-- other products -->
+		END Other Products Tab  -->
+		
+		<!-- Other Products Tab Table-->
+		<table cellpadding="0" cellspacing="0" border="0" width="684" height="60" align="center" id="otherProductsTab" style="background-image: url(newimages/tab-other-products.png);">
+			<tr>
+				<td mc:edit="otherProductstabTitle" valign="top" id="otherProductstabTitle">
+					<p>
+						Σας ενδιαφέρουν
+					</p>
+				</td>
+				
+				<td mc:edit="otherProductstabContext" valign="top" id="otherProductstabContext">
+					<p>
+						Χιλιάδες προϊόντα απο δεκάδες κατηγορίες!
+					</p>
+				</td>
+			</tr>
+		</table>		
+		
+		<!-- Reference -->
+		<!-- other products 
 		<table cellpadding="0" cellspacing="0" border="0" width="684" align="center">
 			<tr>
 				<td mc:edit="otherproduct1" valign="top">
@@ -726,6 +795,38 @@
 				</td>
 			</tr>
 		</table>
+		
+		END Other Products Table -->
+		
+		
+		<!-- other products -->
+		<table cellpadding="0" cellspacing="0" border="0" width="684" align="center">
+			<tr>
+				<td mc:edit="otherProduct1Image" valign="top" width="240" height="180" style="background-image: url(newimages/other-product-1-bg.png)" id="otherProduct1">
+					<a href="#" target="_blank">	
+						<img src="newimages/other-product-1.jpg" width="160" height="147" alt="Product 1" style="display:block;" id="otherProduct1Image">
+					</a>
+				</td>
+				<td mc:edit="otherProduct2Image" valign="top" width="220" height="180" style="background-image: url(newimages/other-product-2-bg.jpg)" id="otherProduct2">
+					<a href="#" target="_blank">	
+						<img src="newimages/other-product-2.jpg" width="160" height="147" alt="Product 2" style="display:block;" id="otherProduct1Image">
+					</a>
+				</td>
+				<td mc:edit="otherProduct3Image" valign="top" width="243" height="180" style="background-image: url(newimages/other-product-3-bg.png)" id="otherProduct3">
+					<a href="#" target="_blank">	
+						<img src="newimages/other-product-3.jpg" width="160" height="147" alt="Product 3" style="display:block;" id="otherProduct1Image">
+					</a>
+				</td>
+			</tr>
+			<tr>
+				<td  mc:edit="otherProduct1Context" valign="top" width="240" id="otherProduct1Context">
+					<p>
+						Avene
+					</p>
+				</td>
+			</tr>
+		</table>
+		
 		
 		<!-- articles tab -->
 		<table cellpadding="0" cellspacing="0" border="0" width="684" align="center">
