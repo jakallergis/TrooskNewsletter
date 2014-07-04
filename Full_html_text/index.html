@@ -38,9 +38,9 @@
 	                           }  
 
 	                       a, a:link {
-	                           color:#2A5DB0;
-	                           text-decoration: underline;
-	                           }   */          
+	                           color:#b4be00;
+	                           text-decoration: none;
+	                           }            
 
 	               /****** END RESETTING DEFAULTS ********/
 
@@ -54,7 +54,8 @@
 							background:url(images/bg.jpg);
 	                        font-size:12px;
 	                        }
-						#copyright {
+						
+							#copyright {
 							font-size: 13px; 
 							line-height: 30px; 
 							font-family: "Times New Roman", Times, serif; color:#ffffff; 
@@ -82,7 +83,7 @@
 							}
 							
 							#header {
-								background:url(newimages/header-bg.png);
+								background:url(images/header-bg.png);
 								width: 684px;
 								height: 135px;
 							}
@@ -144,12 +145,13 @@
 							}
 							
 							#navigation {
-								background-image: url(newimages/nav-bg.png);
+								background-image: url(images/nav-bg.png);
 								width: 684;
 								height: 35;
 							}
 							
-							#navigation a{
+							#navigation,
+							#navigation a {
 								font-family: "Times New Roman", Times, serif;
 								color: #da5500;
 								font-weight: bold;
@@ -163,6 +165,27 @@
 								text-align: center;
 							}
 							
+							#product1 {
+								background-image: url(images/p1-bg.png);
+							}
+							
+							#product2 {
+								background-image: url(images/p2-bg.png);
+							}
+							
+							#product3 {
+								background-image: url(images/p3-bg.png);
+							}
+							
+							/* Text Links Style Reset*/
+							
+							#products a,
+							#otherProductsTab a,
+							#articlesTab a,
+							#articles a {
+							color: #737900;
+								text-decoration: none;
+							}
 							
 							.productImage {
 								margin-left: 55px;
@@ -173,7 +196,7 @@
 								color: #b4be00;
 								font-family: "Times New Roman", Times, serif;
 								font-weight: 400;
-								font-size: 19px;
+								font-size: 18px;
 								text-align: left;
 								width: 250px;
 								padding-top: 40px;
@@ -214,77 +237,193 @@
 								
 							}
 							
-							#product1 {
-								background-image: url(newimage/p1-bg.png)
-							}
-							
-							#product2 {
-								background-image: url(newimage/p2-bg.png)
-							}
-							
-							#product2 {
-								background-image: url(newimage/p3-bg.png)
-							}
-							
 							#otherProductsTab {
-								background-image: url(newimages/tab-other-products.png);
+								background-image: url(images/tab-other-products.png);
 								width: 684px;
 								height: 60px;
 							}
 							
-							#otherProductstabTitle {
+							#otherProductsTabTitle {
 								color: #fff;
 								font-family: "Times New Roman", Times, serif;
-								text-align: left;
+								text-align: center;
 								font-size: 24px;
-								padding-left: 45px;
+								padding-left: 35px;
 								padding-top: 15px;						
 								}
 								
-							#otherProductstabContext {
+							#otherProductsTabContext {
 								color: #de5600;
 								font-family: "Times New Roman", Times, serif;
-								text-align: left;
+								text-align: right;
 								font-size: 19px;
 								font-weight: 400;
-								padding-left: 0px;
+								padding-right: 80px;
 								padding-top: 20px;
 							}
 							
 							#otherProduct1 {
-								background-image: url(newimage/other-product-1-bg.png)
+								background-image: url(images/other-product-1-bg.png)
 								width: 240px;
 							}
 							
-							#otherProduct1Image {
-								margin: 20px;
-							}
-							
-							#otherProduct1Context {
-								color: red;
-							}
-							
-							otherProduct2 {
-								background-image: url(newimage/other-product-2-bg.jpg)
+							#otherProduct2 {
+								background-image: url(images/other-product-2-bg.jpg)
 								width: 204px;
 								
 							}
 							
-							otherProduct3 {
-								background-image: url(newimage/other-product-3-bg.png)
-								width: 240px;
+							#otherProduct3 {
+								background-image: url(images/other-product-3-bg.png)
+								width: 243px;
 							
 							}
-
-	                      span.yshortcuts { color:#fff; background-color:none; border:none;}
-	                      span.yshortcuts:hover,
-	                      span.yshortcuts:active,
-	                      span.yshortcuts:focus {color:#fff; background-color:none; border:none;}
+							
+							.otherProductImage {
+								margin-left: 20px;
+							}
+							
+							#otherProducts a{
+								color: #b4be00;
+								font-family: "Times New Roman", Times, serif;
+								font-size: 18px;
+								font-weight: 400;
+								text-align: center;
+								padding-right: 30px;
+							}
+							
+							#articlesTab {
+								background-image: url(images/tab-articles.png);
+								width: 684px;
+								height: 100px;
+							}
+							
+							#articlesTabTitle {
+								color: #fff;
+								font-family: "Times New Roman", Times, serif;
+								text-align: center;
+								font-size: 24px;
+								padding-left: 35px;
+								padding-top: 35px;	
+								font-weight: 800;					
+								}
+								
+							#articlesTabContext {
+								color: #de5600;
+								font-family: "Times New Roman", Times, serif;
+								text-align: right;
+								font-size: 19px;
+								font-weight: 400;
+								padding-right: 80px;
+								padding-top: 40px;
+							}
+							
+							#articles {
+								background-image: url(images/articles-bg.png);
+							}
+							
+							.articleTitleTableLeft {
+								background-image: url(images/article-title-bg.png);
+							}
+							
+							.articleTitleTableRight {
+								background-image: url(images/article-title-bg-2.png);
+							}
+							
+							.articleCategoryLeft {
+								color: #fff;
+								font-family: "Times New Roman", Times, serif;
+								font-weight: 800;
+								font-size: 24px;
+								text-align: center;
+								text-shadow: 2px 0px 0px #de5600, 0px 2px 0px #de5600, 0px -2px 0px #de5600, -2px 0px 0px #de5600, 6px 4px 6px rgba(0,0,0,0.6);
+								width: 142px;
+								padding-top: 5px;
+							}
+							
+							.articleTitleLeft {
+								color: #b4be00;
+								font-family: "Times New Roman", Times, serif;
+								font-weight: 400;
+								font-size: 18px;
+								text-align: center;
+								width: 453px;
+								padding-top: 10px;
+							}
+							
+							.articleCategoryRight {
+								color: #fff;
+								font-family: "Times New Roman", Times, serif;
+								font-weight: 800;
+								font-size: 24px;
+								text-align: center;
+								text-shadow: 2px 0px 0px #de5600, 0px 2px 0px #de5600, 0px -2px 0px #de5600, -2px 0px 0px #de5600, 6px 4px 6px rgba(0,0,0,0.6);
+								width: 142px;
+								padding-top: 5px;
+							}
+							
+							.articleTitleRight {
+								color: #b4be00;
+								font-family: "Times New Roman", Times, serif;
+								font-weight: 400;
+								font-size: 18px;
+								text-align: center;
+								width: 453px;
+								padding-top: 10px;
+							}
+							
+							.articleContextRight {
+								color: #999;
+								font-family: "Times New Roman", Times, serif;
+								font-size: 16px;
+								font-weight: 400;
+								line-height: 25px;
+								font-style: italic;
+								text-align: center;
+							}
+							
+							.articleContextLeft {
+								color: #999;
+								font-family: "Times New Roman", Times, serif;
+								font-size: 16px;
+								font-weight: 400;
+								line-height: 25px;
+								font-style: italic;
+								text-align: center;
+							}
+							
+							.articleImageRight {
+								padding-top: 20px;
+							}
+							
+							.articleImageLeft {
+								padding-top: 20px;
+							}
+							
+							#socialMedia {
+								background-image: url(images/ask-the-experts.png);
+							}
+							
+							#socialMedia a {
+								color: #999;
+								font-family: "Times New Roman", Times, serif;
+								font-size: 16px;
+								font-weight: 400;
+								line-height: 25px;
+								font-style: italic;
+								text-align: center;
+								text-decoration: none;
+							}
+							
+	                      	span.yshortcuts { color:#fff; background-color:none; border:none;}
+	                      	span.yshortcuts:hover,
+	                      	span.yshortcuts:active,
+	                      	span.yshortcuts:focus {color:#fff; background-color:none; border:none;}
 
 	                      /*Optional:*/
-	                      a:visited { color: #3c96e2; text-decoration: none} 
-	                      a:focus   { color: #3c96e2; text-decoration: underline}  
-	                      a:hover   { color: #3c96e2; text-decoration: underline}  
+	                      	a:visited { color: #3c96e2; text-decoration: none} 
+	                      	a:focus   { color: #3c96e2; text-decoration: underline}  
+	                      	a:hover   { color: #3c96e2; text-decoration: underline}  
 	                        /* There is no way to set these inline so you have the option of adding pseudo class definitions here. They won't 
 	                        work for Gmail nor older versions of Lotus Notes but it's a nice addition for all other clients. */
 
@@ -330,29 +469,21 @@
 					</p>
 				</td>
             </tr>
-        </table> 
-
-		<!-- Reference -->
-		<!-- Header Table 
-		
-		<table cellpadding="0" cellspacing="0" border="0" width="684" align="center">
-			
-			<tr>
-				<td mc:edit="header" valign="top"><a href="http://www.troosk.gr" target="_blank"><img alt="Header" height="135" src="images/header.png" style="display:block;" width="684"> </a></td>
-			</tr>
-		</table> 
-		
-		END Header Refference Table-->
+        </table>
 		
 		<!-- Header Table -->
 		
-		<table cellpadding="0" cellspacing="0" border="0" width="684" align="center" height="135" id="header" style="background:url(newimages/header-bg.png);">
+		<table cellpadding="0" cellspacing="0" border="0" width="684" align="center" height="135" id="header" style="background:url(images/header-bg.png);">
 			<tr>
 					<!-- logo cell -->
 				<th rowspan="2" valign="top"> 
 					<table cellpadding="0" cellspacing="0" border="0" width="194" align="center"  id="logo">
 						<tr>
-							<td mc:edit="logo" valign="top"><a href="http://www.troosk.gr" target="_blank"><img alt="Troosk.gr" width="194" height="96" src="newimages/logo.png" style="display:block;"></a></td>
+							<td mc:edit="logo" valign="top">
+								<a href="http://www.troosk.gr" target="_blank">
+									<img alt="Troosk.gr" width="194" height="96" src="images/logo.png" style="display:block;">
+								</a>
+							</td>
 						</tr>
 					</table>
 				</th> 
@@ -363,7 +494,7 @@
 						<tr>
 							
 								<!-- phone numbers cell -->
-							<td mc:edit="phoneNumbers" valign="top"> 
+							<td valign="top"> 
 								<table cellpadding="0" cellspacing="0" border="0" width="160" align="center">	
 									<tr>
 										<th colspan="2">
@@ -372,14 +503,14 @@
 									</tr>
 									<tr>
 										<td rowspan="2" mc:edit="phoneNumbers" valign="top">
-											<img alt="Troosk Phone" width="35" height="46" src="newimages/phone.png" style="display:block;">
+											<img alt="Troosk Phone" width="35" height="46" src="images/phone.png" style="display:block;">
 										</td>
-										<td mc:edit="phoneNumbers" valign="top">
+										<td mc:edit="phoneNumber1" valign="top">
 											<p class="phoneNumbers">8017007077</p>
 										</td>
 									</tr>
 									<tr>
-										<td mc:edit="phoneNumbers" valign="top">
+										<td mc:edit="phoneNumber2" valign="top">
 										<p class="phoneNumbers">2130278766</p>
 										</td>
 									</tr>
@@ -391,7 +522,7 @@
 								<table cellpadding="0" cellspacing="0" border="0" width="3" align="center">
 									<tr>
 										<td valign="top">
-											<img alt="|" width="3" height="71" src="newimages/divider.png" style="display:block;">
+											<img alt="|" width="3" height="71" src="images/divider.png" style="display:block;">
 										</td>
 									</tr>
 								</table>
@@ -403,7 +534,7 @@
 								<table cellpadding="0" cellspacing="0" border="0" width="200" align="center" id="shippingTable">			
 									<tr>
 										<th rowspan="2">
-											<img alt="shppingIcon" width="55" height="44" src="newimages/shipment.png" style="display:block;">
+											<img alt="shppingIcon" width="55" height="44" src="images/shipment.png" style="display:block;">
 										</th>
 										<th>
 											<p id="shippingInfoTitle">ΔΩΡΕΑΝ ΜΕΤΑΦΟΡΙΚΑ</p>
@@ -429,77 +560,40 @@
 			</tr>
 		</table>
 		
-		
-		<!-- Reference -->
-		<!-- Navigation Table
-		
-		<table cellpadding="0" cellspacing="0" border="0" width="688" align="center">
-			<tr>
-				<td mc:edit="menu1" valign="top">
-					<a href="#" target="_blank">	
-						<img src="images/ginaika.png" width="129" height="35" alt="Ginaika" style="display:block;">
-					</a>
-				</td>
-				<td mc:edit="menu2" valign="top">
-					<a href="#" target="_blank">		
-						<img src="images/mitera.png" width="174" height="35" alt="Mitera" style="display:block;">
-					</a>
-				</td>
-				<td mc:edit="menu3" valign="top">
-					<a href="#" target="_blank">		
-						<img src="images/antras.png" width="92" height="35" alt="Antras" style="display:block;">
-					</a>
-				</td>
-				<td mc:edit="menu4" valign="top">
-					<a href="#" target="_blank">		
-						<img src="images/vitamines.png" width="117" height="35" alt="Vitamines" style="display:block;">
-					</a>
-				</td>
-				<td mc:edit="menu5" valign="top">
-					<a href="#" target="_blank">		
-						<img src="images/prosfores.png" width="176" height="35" alt="Prosfores" style="display:block;">
-					</a>
-				</td>
-			</tr>
-		</table>
-		
-		Refference Navigation Table-->
-		
-		
 		<!-- Navigation Table -->
 		
-		<table cellpadding="0" cellspacing="0" border="0" width="684"  height="35" align="center" id="navigation" style="background-image: url(newimages/nav-bg.png);">
+		<table cellpadding="0" cellspacing="0" border="0" width="684"  height="35" align="center" id="navigation" style="background-image: url(images/nav-bg.png);">
 			<tr>
 				<td mc:edit="menu1" valign="top" width="90">
-					<a href="#" target="_blank">	
+					<a href="http://www.troosk.gr/gr/el/catalog/enydatosi:4?per=72" target="_blank">	
 						<p>
 							ΓΥΝΑΙΚΑ
 						</p>
 					</a>
 				</td>
 				<td mc:edit="menu2" valign="top" width="145">
-					<a href="#" target="_blank">		
+					<a href="http://www.troosk.gr/gr/el/catalog/frontida-moroy?per=72" target="_blank">		
 						<p>
 							ΜΗΤΕΡΑ & ΠΑΙΔΙ
 						</p>
 					</a>
 				</td>
 				<td mc:edit="menu3" valign="top" width="80">
-					<a href="#" target="_blank">		
+					<a href="http://www.troosk.gr/gr/el/catalog/proionta-ksyrismatos?per=72" target="_blank">		
 						<p>
 							ΑΝΔΡΑΣ
 						</p>
 					</a>
 				</td>
 				<td mc:edit="menu4" valign="top" width="110">
-					<a href="#" target="_blank">		
+					<a href="http://www.troosk.gr/gr/el/catalog/sympliromata:2?per=72" target="_blank">		
 						<p class="menu4">
 							ΒΙΤΑΜΙΝΕΣ
 						</p>
 					</a>
 				</td>
 				<td mc:edit="menu5" valign="top" width="150">
-					<a href="#" target="_blank">		
+					<a href="http://www.troosk.gr/gr/el/catalog/prosfores?per=72" target="_blank">		
 						<p class="menu5">
 							ΠΡΟΣΦΟΡΕΣ
 						</p>
@@ -525,77 +619,47 @@
 		<table cellpadding="0" cellspacing="0" border="0" width="684" align="center">
 			<tr>
 				<td mc:edit="brand1" valign="top">
-					<a href="#" target="_blank">	
+					<a href="http://www.troosk.gr/gr/el/catalog/apivita?per=72" target="_blank">	
 						<img src="images/apivita.png" width="134" alt="Προϊόντα Apivita" style="display:block;">
 					</a>
 				</td>
 				<td mc:edit="brand2" valign="top">
-					<a href="#" target="_blank">	
+					<a href="http://www.troosk.gr/gr/el/catalog/korres?per=72" target="_blank">	
 						<img src="images/korres.png" width="178" alt="Προϊόντα Korres" style="display:block;">
 					</a>
 				</td>
 				<td mc:edit="brand3" valign="top">
-					<a href="#" target="_blank">	
+					<a href="http://www.troosk.gr/gr/el/catalog/vichy?per=72" target="_blank">	
 						<img src="images/vichy.png" width="117" alt="Προϊόντα Vichy" style="display:block;">
 					</a>
 				</td>
 				<td mc:edit="brand4" valign="top">
-					<a href="#" target="_blank">	
+					<a href="http://www.troosk.gr/gr/el/catalog/nuxe?per=72" target="_blank">	
 						<img src="images/nuxe.png" width="101" alt="Προϊόντα Nuxe" style="display:block;">
 					</a>
 				</td>
 				<td mc:edit="brand5" valign="top">
-					<a href="#" target="_blank">	
+					<a href="http://www.troosk.gr/gr/el/catalog/power-health?per=72" target="_blank">	
 						<img src="images/powerhealth.png" width="154" alt="Προϊόντα Powerhealth" style="display:block;">
 					</a>
 				</td>
 			</tr>
 		</table>
 		
-		
-		<!-- Reference -->	
-		<!-- Products Table
-		<table cellpadding="0" cellspacing="0" border="0" width="684" align="center">
-			<tr>
-				<td mc:edit="product1" valign="top">
-					<a href="#" target="_blank">	
-						<img src="images/product-1b.png" width="684" height="210" alt="Product 1b" style="display:block;">
-					</a>
-				</td>
-			</tr>
-			<tr>
-				<td mc:edit="product2" valign="top">
-					<a href="#" target="_blank">	
-						<img src="images/product-2b.png" width="684" height="200" alt="Product 2b" style="display:block;">
-					</a>
-				</td>
-			</tr>
-			<tr>
-				<td mc:edit="product3" valign="top">
-					<a href="#" target="_blank">	
-						<img src="images/product-3b.png" width="684" height="200" alt="Product 3b" style="display:block;">
-					</a>
-				</td>
-			</tr>
-		</table>
-		
-		END Refference Products Table -->
-		
-		
 		<!-- Products Table -->
-		<table cellpadding="0" cellspacing="0" border="0" width="684" align="center">
+		<table cellpadding="0" cellspacing="0" border="0" width="684" align="center" id="products">
 			
 			<tr>	
 				<td>	
 					<!-- Product 1 Table -->
-					<table cellpadding="0" cellspacing="0" border="0" width="684" height="210px" align="center" id="product1" style="background-image: url(newimages/p1-bg.png);">
+					<table cellpadding="0" cellspacing="0" border="0" width="684" height="210px" align="center" id="product1" style="background-image: url(images/p1-bg.png);">
 						<tr>
 							<td>
 								<table cellpadding="0" cellspacing="0" border="0" width="280" align="center">
 									<tr>
 										<td mc:edit="productImage1" valign="top">
-											<a href="http://">
-												<img src="newimages/product1.jpg" width="219" height="178" alt="Product1" class="productImage"/>
+											<a href="#" target="_blank">
+												<img src="images/product1.jpg" width="219" height="178" alt="Product1" class="productImage"/>
 											</a>
 										</td>
 									</tr>
@@ -605,8 +669,11 @@
 								<table cellpadding="0" cellspacing="0" border="0" width="404" align="center">
 									<tr>
 									    <th class="productTitle">
-									   		<p>
-									   			<b>Korres</b> Αντιηλιακό για πανάδες 									   		</p>
+										   	<a href="#" target="_blank">	
+										   		<p>
+										   			<b>Korres</b> Αντιηλιακό για πανάδες 
+										   		</p>
+										   	</a>
 									    </th>
 									    <th class="productTitleSpecial">
 									    	<p>
@@ -641,14 +708,14 @@
 			<tr>	
 				<td>
 					<!-- Product 2 Table -->	
-					<table cellpadding="0" cellspacing="0" border="0" width="684" height="210px" align="center" id="product2" style="background-image: url(newimages/p2-bg.png);">
+					<table cellpadding="0" cellspacing="0" border="0" width="684" height="210px" align="center" id="product2" style="background-image: url(images/p2-bg.png);">
 						<tr>
 							<td>
 								<table cellpadding="0" cellspacing="0" border="0" width="280" align="center">
 									<tr>
 										<td mc:edit="productImage2" valign="top">
-											<a href="http://">
-												<img src="newimages/product2.jpg" width="219" height="178" alt="Product2" class="productImage"/>
+											<a href="#" target="_blank">
+												<img src="images/product2.jpg" width="219" height="178" alt="Product2" class="productImage"/>
 											</a>
 										</td>
 									</tr>
@@ -658,8 +725,11 @@
 								<table cellpadding="0" cellspacing="0" border="0" width="404" align="center">
 									<tr>
 									    <th class="productTitle">
-									   		<p>
-									   			<b>MUSTELA</b> Τζελ Καθαρισμού 									   		</p>
+										   	<a href="#" target="_blank">	
+										   		<p>
+										   			<b>MUSTELA</b> Τζελ Καθαρισμού
+										   		</p>
+										   	</a>
 									    </th>
 									    <th class="productTitleSpecial">
 									    	<p>
@@ -692,14 +762,14 @@
 			<tr>	
 				<td>
 					<!-- Product 3 Table -->
-					<table cellpadding="0" cellspacing="0" border="0" width="684" height="210px" align="center" id="product3" style="background-image: url(newimages/p3-bg.png);">
+					<table cellpadding="0" cellspacing="0" border="0" width="684" height="210px" align="center" id="product3" style="background-image: url(images/p3-bg.png);">
 						<tr>
 							<td>
 								<table cellpadding="0" cellspacing="0" border="0" width="280" align="center">
 									<tr>
 										<td mc:edit="productImage3" valign="top">
-											<a href="http://">
-												<img src="newimages/product3.jpg" width="219" height="178" alt="Product3" class="productImage"/>
+											<a href="#" target="_blank">
+												<img src="images/product3.jpg" width="219" height="178" alt="Product3" class="productImage"/>
 											</a>
 										</td>
 									</tr>
@@ -709,8 +779,11 @@
 								<table cellpadding="0" cellspacing="0" border="0" width="404" align="center">
 									<tr>
 									    <th class="productTitle">
-									   		<p>
-									   			Avene Spring Water Συλλεκτικό 									   		</p>
+										   	<a href="#" target="_blank">	
+										   		<p>
+										   			<b>Avene </b> Spring Water Συλλεκτικό
+										   		</p>
+										   	</a>
 									    </th>
 									    <th class="productTitleSpecial">
 									    	<p>
@@ -742,156 +815,327 @@
 			</tr>
 		</table>
 		
-	
-		<!-- Reference -->
-		<!-- Other Products Tab
-		<table cellpadding="0" cellspacing="0" border="0" width="684" align="center">
-			<tr>
-				<td mc:edit="otherproducttab" valign="top">
-					<a href="#" target="_blank">	
-						<img src="images/tab-other-products.png" width="687" height="60" alt="Tab Other Products" style="display:block;">
-					</a>
-				</td>
-			</tr>
-		</table>
-		
-		END Other Products Tab  -->
-		
 		<!-- Other Products Tab Table-->
-		<table cellpadding="0" cellspacing="0" border="0" width="684" height="60" align="center" id="otherProductsTab" style="background-image: url(newimages/tab-other-products.png);">
+		<table cellpadding="0" cellspacing="0" border="0" width="684" height="60" align="center" id="otherProductsTab" style="background-image: url(images/tab-other-products.png);">
 			<tr>
-				<td mc:edit="otherProductstabTitle" valign="top" id="otherProductstabTitle">
+				<td mc:edit="otherProductsTabTitle" valign="top" id="otherProductsTabTitle">
 					<p>
 						Σας ενδιαφέρουν
 					</p>
 				</td>
 				
-				<td mc:edit="otherProductstabContext" valign="top" id="otherProductstabContext">
-					<p>
-						Χιλιάδες προϊόντα απο δεκάδες κατηγορίες!
-					</p>
-				</td>
-			</tr>
-		</table>		
-		
-		<!-- Reference -->
-		<!-- other products 
-		<table cellpadding="0" cellspacing="0" border="0" width="684" align="center">
-			<tr>
-				<td mc:edit="otherproduct1" valign="top">
-					<a href="#" target="_blank">	
-						<img src="images/other-product-1.png" width="240" height="240" alt="Other Product 1" style="display:block;">
-					</a>
-				</td>
-				<td mc:edit="otherproduct2" valign="top">
-					<a href="#">	
-						<img src="images/other-product-2.png" width="204" height="240" alt="Other Product 2" style="display:block;">
-					</a>
-				</td>
-				<td mc:edit="otherproduct3" valign="top">
-					<a href="#" target="_blank">		
-						<img src="images/other-product-3.png" width="243" height="240" alt="Other Product 3" style="display:block;">
+				<td mc:edit="otherProductsTabContext" valign="top" id="otherProductsTabContext">
+					<a href="http://www.troosk.gr/gr/el/catalog/?per=72" target="_blank">	
+						<p>
+							Χιλιάδες προϊόντα απο δεκάδες κατηγορίες!
+						</p>
 					</a>
 				</td>
 			</tr>
 		</table>
-		
-		END Other Products Table -->
-		
 		
 		<!-- other products -->
-		<table cellpadding="0" cellspacing="0" border="0" width="684" align="center">
+		<table cellpadding="0" id="otherProducts" cellspacing="0" border="0" width="684" align="center">
+			
 			<tr>
-				<td mc:edit="otherProduct1Image" valign="top" width="240" height="180" style="background-image: url(newimages/other-product-1-bg.png)" id="otherProduct1">
-					<a href="#" target="_blank">	
-						<img src="newimages/other-product-1.jpg" width="160" height="147" alt="Product 1" style="display:block;" id="otherProduct1Image">
-					</a>
+				<td> <!-- Other Product 1 -->
+					<table mc:edit="otherproduct1" cellpadding="0" cellspacing="0" border="0" width="240" align="center" style="background-image: url(images/other-product-1-bg.png)" id="otherProduct1">	
+						<tr>
+							<td valign="top">
+								<a href="#" target="_blank">	
+									<img src="images/other-product-1.jpg" width="160" height="147" alt="Product 1" style="display:block;" class="otherProductImage">
+								</a>
+							</td>
+						</tr>
+						<tr>
+							<td mc:edit="otherProduct1Context" valign="top">
+								<a href="#" target="_blank">	
+									<p>
+										<b>Avene</b> <br />
+										Eau Thermal <br />
+										Spring Water
+									</p>
+								</a>
+							</td>
+						</tr>
+					</table>
 				</td>
-				<td mc:edit="otherProduct2Image" valign="top" width="220" height="180" style="background-image: url(newimages/other-product-2-bg.jpg)" id="otherProduct2">
-					<a href="#" target="_blank">	
-						<img src="newimages/other-product-2.jpg" width="160" height="147" alt="Product 2" style="display:block;" id="otherProduct1Image">
-					</a>
+				<td> <!-- Other Product 2 -->	
+					<table mc:edit="otherproduct2" cellpadding="0" cellspacing="0" border="0" width="204" align="center" style="background-image: url(images/other-product-2-bg.jpg)" id="otherProduct2">
+						<tr>
+							<td valign="top">
+								<a href="#" target="_blank">	
+									<img src="images/other-product-2.jpg" width="160" height="147" alt="Product 2" style="display:block;" class="otherProductImage">
+								</a>
+							</td>
+						</tr>
+						<tr>
+							<td mc:edit="otherProduct2Context" valign="top">
+								<a href="#" target="_blank">	
+									<p>
+										<b>Apivita</b> <br />
+										Εντομοαπωθητική <br />
+										Lotion
+									</p>
+								</a>
+							</td>
+						</tr>	
+					</table>
 				</td>
-				<td mc:edit="otherProduct3Image" valign="top" width="243" height="180" style="background-image: url(newimages/other-product-3-bg.png)" id="otherProduct3">
-					<a href="#" target="_blank">	
-						<img src="newimages/other-product-3.jpg" width="160" height="147" alt="Product 3" style="display:block;" id="otherProduct1Image">
-					</a>
+				<td> <!-- Other Product 3 -->	
+					<table mc:edit="otherproduct3" cellpadding="0" cellspacing="0" border="0" width="240" align="center" style="background-image: url(images/other-product-3-bg.png)" id="otherProduct3">
+						<tr>
+							<td mc:edit="otherProduct3Image" valign="top">
+								<a href="#" target="_blank">	
+									<img src="images/other-product-3.jpg" width="160" height="147" alt="Product 3" style="display:block;" class="otherProductImage">
+								</a>
+							</td>
+						</tr>
+						<tr>
+							<td mc:edit="otherProduct3Context" valign="top">
+								<a href="#" target="_blank">	
+									<p>
+										<b>Korres</b> <br />
+										Εντομοαπωθητικό <br />
+										Γαλάκτωμα
+									</p>
+								</a>
+							</td>
+						</tr>
+					</table>
 				</td>
 			</tr>
+			
+			
+		</table>
+		
+		<!-- Articles tab -->
+		<table cellpadding="0" cellspacing="0" border="0" width="684" height="60" align="center" id="articlesTab" style="background-image: url(images/tab-articles.png);">
 			<tr>
-				<td  mc:edit="otherProduct1Context" valign="top" width="240" id="otherProduct1Context">
+				<td mc:edit="articlesTabTitle" valign="top" id="articlesTabTitle">
 					<p>
-						Avene
+						Αρθρογραφία
 					</p>
 				</td>
-			</tr>
-		</table>
-		
-		
-		<!-- articles tab -->
-		<table cellpadding="0" cellspacing="0" border="0" width="684" align="center">
-			<tr>
-				<td mc:edit="articlestab" valign="top">
-					<a href="#" target="_blank">
-						<img src="images/tab-articles.png" width="685" height="50" alt="Tab Articles" style="display:block;">
+				
+				<td mc:edit="articlesTabContext" valign="top" id="articlesTabContext">
+					<a href="#" target="_blank">	
+						<p>
+							Άρθρα και Συμβουλές Υγείας και Ομορφιάς
+						</p>
 					</a>
 				</td>
 			</tr>
 		</table>
 		
-		<!-- articles -->
-		<table cellpadding="0" cellspacing="0" border="0" width="684" align="center">
-			<tr>
-				<td mc:edit="article1" valign="top">
-					<a href="#" target="_blank">	
-						<img src="images/article-1.png" width="681" height="140" alt="Article 1" style="display:block;">
-					</a>
+		<!-- Articles -->
+		<table cellpadding="0" cellspacing="0" border="0" width="684" align="center" id="articles" style="background-image: url(images/articles-bg.png);">
+			<tr> <!-- Article 1 -->
+				<td>
+					<table mc:edit="article1" id="article1" cellpadding="0" cellspacing="0" border="0" width="684" height="140" align="center">
+						<tr>	
+							<td valign="top">
+								<table cellpadding="0" cellspacing="0" border="0" width="595" height="38" align="center" class="articleTitleTableRight" style="background-image: url(images/article-title-bg-2.png);">
+									<tr>
+										<td mc:edit="articleTitle1" valign="top" width="453 "class="articleTitleRight">
+											<a href="#" target="_blank">
+												<p>
+													Φαρμακείο Α' Βοηθειών για τσιμπήματα & δαγκώματα
+												</p>
+											</a>
+										</td>
+										<td mc:edit="articleCategory1" valign="top" width="142 "class="articleCategoryRight">
+											<p>
+												Διακοπές
+											</p>
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+						<tr>
+							<td>	
+								<table cellpadding="0" cellspacing="0" border="0" width="595" align="center">	
+									<tr>	
+										<td mc:edit="articleContext1" valign="top" width="453" class="articleContextRight">
+											<p>
+												Η πρώτη και «μαγική» λέξη είναι: εντομοαπωθητικά! Στο φαρμακείο μας θα βρείτε εντομοαπωθητικά roll on, σπρέι, λοσιόν, γαλακτώματα απαραιτητα για Α βοηθειες.
+											</p>
+										</td>
+										<td mc:edit="articleImage1" valign="top" width="142 "class="articleImageRight">
+											<a href="#" target="_blank">
+												<img src="images/article1.png" alt="Άρθρο 1"  height="80"/>
+											</a>
+										</td>
+									</tr>
+								</table>
+							</td>		
+						</tr>
+					</table>	
 				</td>
 			</tr>
-			<tr>
-				<td mc:edit="article2" valign="top">
-					<a href="#" target="_blank">	
-						<img src="images/article-2.png" width="687" height="140" alt="Article 2" style="display:block;">
-					</a>
+			<tr> <!-- Article 2 -->
+				<td>
+					<table mc:edit="article2" id="article2" cellpadding="0" cellspacing="0" border="0" width="684" height="140" align="center">
+						<tr>	
+							<td valign="top">
+								<table cellpadding="0" cellspacing="0" border="0" width="595" height="38" align="center" class="articleTitleTableLeft" style="background-image: url(images/article-title-bg.png);">
+									<tr>
+										<td mc:edit="articleCategory2" valign="top" width="142" class="articleCategoryLeft">
+											<p>
+												Υγεία
+											</p>
+										</td>
+										<td mc:edit="articleTitle2" valign="top" width="453" class="articleTitleLeft">
+											<a href="#" target="_blank">	
+												<p>
+													Προϊόντα φροντίδας για το ηλιακό έγκαυμα
+												</p>
+											</a>
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+						<tr>
+							<td>	
+								<table cellpadding="0" cellspacing="0" border="0" width="595" align="center">	
+									<tr>	
+										<td mc:edit="articleImage2" valign="top" width="142 "class="articleImageLeft">
+											<a href="#" target="_blank">
+												<img src="images/article2.png" alt="Άρθρο 2"  height="80"/>
+											</a>
+										</td>
+										<td mc:edit="articleContext2" valign="top" width="453" class="articleContextLeft">
+											<p>
+												Ανακουφίστε το δέρμα σας απο την αίσθηση τραβήγματος ή τσουξίματος μετά την υπερβολική έκθεση στον ήλιο, αφήνοντάς το δροσερό και κυρίως ενυδατωμένο.
+											</p>
+										</td>
+									</tr>
+								</table>
+							</td>		
+						</tr>
+					</table>	
 				</td>
 			</tr>
-			<tr>
-				<td mc:edit="article3" valign="top">
-					<a href="#" target="_blank">	
-						<img src="images/article-3.png" width="680" height="140" alt="Article 3" style="display:block;">
-					</a>
+			<tr> <!-- Article 3 -->
+				<td>
+					<table mc:edit="article3" id="article3" cellpadding="0" cellspacing="0" border="0" width="684" height="140" align="center">
+						<tr>	
+							<td valign="top">
+								<table cellpadding="0" cellspacing="0" border="0" width="595" height="38" align="center" class="articleTitleTableRight" style="background-image: url(images/article-title-bg-2.png);">
+									<tr>
+										<td mc:edit="articleTitle3" valign="top" width="453 "class="articleTitleRight">
+											<a href="#" target="_blank">	
+												<p>
+													Στην αντιηλιακή προστασία των παιδιών λέμε: "ΝΑΙ"
+												</p>
+											</a>
+										</td>
+										<td mc:edit="articleCategory3" valign="top" width="142 "class="articleCategoryRight">
+											<p>
+												Παιδιά
+											</p>
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+						<tr>
+							<td>	
+								<table cellpadding="0" cellspacing="0" border="0" width="595" align="center">	
+									<tr>	
+										<td mc:edit="articleContext3" valign="top" width="453" class="articleContextRight">
+											<p>
+												Συμβουλές για την καλύτερη αντιηλιακή προστασία του παιδιού μας και 5 μύθοι που πρέπει να αντικρούσουμε.
+											</p>
+										</td>
+										<td mc:edit="articleImage3" valign="top" width="142 "class="articleImageRight">
+											<a href="#" target="_blank">
+												<img src="images/article3.png" alt="Άρθρο 3"  height="80"/>
+											</a>
+										</td>
+									</tr>
+								</table>
+							</td>		
+						</tr>
+					</table>	
 				</td>
 			</tr>
-			<tr>
-				<td mc:edit="article4" valign="top">
-					<a href="#" target="_blank">	
-						<img src="images/article-4.png" width="683" height="150" alt="Article 4" style="display:block;">
-					</a>
+			<tr> <!-- Article 4 -->
+				<td>
+					<table mc:edit="article4" id="article4" cellpadding="0" cellspacing="0" border="0" width="684" height="140" align="center">
+						<tr>	
+							<td valign="top">
+								<table cellpadding="0" cellspacing="0" border="0" width="595" height="38" align="center" class="articleTitleTableLeft" style="background-image: url(images/article-title-bg.png);">
+									<tr>
+										<td mc:edit="articleCategory4" valign="top" width="142" class="articleCategoryLeft">
+											<p>
+												Διατροφή
+											</p>
+										</td>
+										<td mc:edit="articleTitle4" valign="top" width="453" class="articleTitleLeft">
+											<a href="#" target="_blank">	
+												<p>
+													Τι είναι το Garcinia Cambogia
+												</p>
+											</a>
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+						<tr>
+							<td>	
+								<table cellpadding="0" cellspacing="0" border="0" width="595" align="center">	
+									<tr>	
+										<td mc:edit="articleImage4" valign="top" width="142" class="articleImageLeft">
+											<a href="#" target="_blank">
+												<img src="images/article4.png" alt="Άρθρο 4" height="80" />
+											</a>
+										</td>
+										<td mc:edit="articleContext4" valign="top" width="453" class="articleContextLeft">
+											<p>
+												Είναι γεγονός οτι το Garcinia Cambogia έφτασε και στην Ελλάδα, και ήρθε για να κάνει την επανάσταση στο αδυνάτισμα και την μείωση βάρους.
+											</p>
+										</td>
+									</tr>
+								</table>
+							</td>		
+						</tr>
+					</table>	
 				</td>
 			</tr>
 		</table>
 		
 		<!-- social -->
-		<table cellpadding="0" cellspacing="0" border="0" width="684" align="center">
+		<table cellpadding="0" cellspacing="0" border="0" width="684" align="center" style="background-image: url(images/ask-the-experts.png);" id="socialMedia">
 			<tr>
-				<td mc:edit="asktheexperts" valign="top">
-					<a href="#" target="_blank">	
-						<img src="images/ask-the-experts.png" width="441" height="191" alt="Ask The Experts" style="display:block;">
+				<td width="40"></td>
+				<td mc:edit="askTheExperts" valign="top" width="251" height="191">
+					<a href="http://www.troosk.gr/gr/el/expert_questions" target="_blank">	
+						<p>
+							<br /><br /><br />
+							Ρωτήστε τους ειδικούς για το πρόβλημα
+							που σας απασχολεί και θα λάβετε άμεσα μία 
+							έγκυρη και επιστημονικά τεκμηριωμένη άποψη
+						</p>
 					</a>
 				</td>
+				<td width="140"></td>
 				<td mc:edit="socialicon1" valign="top">
 					<a href="#" target="_blank">	
-						<img src="images/facebook.png" width="81" height="150" alt="Facebook" style="display:block;">
+						<img src="images/facebook.png" width="81" height="150" alt="Facebook">
 					</a>
 				</td>
 				<td mc:edit="socialicon2" valign="top">
 					<a href="#" target="_blank">	
-						<img src="images/twitter.png" width="48" height="150" alt="Twitter" style="display:block;">
+						<img src="images/twitter.png" width="48" height="150" alt="Twitter">
 					</a>
 				</td>
 				<td mc:edit="socialicon3" valign="top">
 					<a href="*|ARCHIVE|*" target="_blank">	
-						<img src="images/rss.png" width="101" height="150" alt="Rss" style="display:block;">
+						<img src="images/rss.png" width="101" height="150" alt="Rss">
 					</a>
 				</td>
 			</tr>
@@ -932,113 +1176,446 @@
 </body>
 
 <style type="text/css">
-     
-                /****** EMAIL CLIENT BUG FIXES - BEST NOT TO CHANGE THESE ********/
-                 
-                        .ExternalClass {width:100%;} /* Forces Outlook.com to display emails at full width */
-                         
-                        .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {
-                            line-height: 100%;
-                            }  /* Forces Outlook.com to display normal line spacing. */
-                         
-                        body {-webkit-text-size-adjust:none; -ms-text-size-adjust:none;} /* Prevents Webkit and Windows Mobile 
-                        platforms from changing default font sizes. */
-                         
-                        body {margin:0; padding:0;} /* Resets all body margins and padding to 0 for good measure */
-                         
-                        table td {border-collapse:collapse;}    
-                        /* This resolves the Outlook 07, 10, and Gmail td padding issue. */
- 
-                /****** END BUG FIXES ********/
- 
-                /****** RESETTING DEFAULTS, IT IS BEST TO OVERWRITE THESE STYLES INLINE ********/
-                 
-                        p {margin:0; padding:0; margin-bottom:0;}  
-                         
-                       h1, h2, h3, h4, h5, h6 {
-                           color: black; 
-                           line-height: 100%; 
-                           }  
-                
-                       a, a:link {
-                           color:#2A5DB0;
-                           text-decoration: underline;
-                           }   */          
-                 
-               /****** END RESETTING DEFAULTS ********/
-                
-               /****** EDITABLE STYLES        ********/
- 
-                    body, #body_style {
-                        background:#fff;
-                       	 min-height:1000px;
-                        color:#000;
-                        font-family:Arial, Helvetica,
- sans-serif;
-						background:url(images/bg.jpg);
-                        font-size:12px;
-                        }
-					#copyright {
-						font-size: 13px; 
-						line-height: 30px; 
-						font-family:Roboto,Open Sans, Arial,Tahoma, Helvetica, sans-serif; color:#ffffff; 
-						font-weight:300; 
-						text-align:center;
-						width: 560px;
-						background-color: rgb(179, 190, 53);
-						margin: 20px auto;
-						}
 
-						#footer {
-							width: 700px; 
-							font-size: 13px; 
-							line-height: 22px; 
-							color: rgb(179, 190, 53); 
-							font-weight: 300; 
-							text-align: center; 
-							font-family: Roboto, 'Open Sans', Arail, Tahoma, Helvetica, Arial, sans-serif;
-						}
+	                /****** EMAIL CLIENT BUG FIXES - BEST NOT TO CHANGE THESE ********/
+
+	                        .ExternalClass {width:100%;} /* Forces Outlook.com to display emails at full width */
+
+	                        .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {
+	                            line-height: 100%;
+	                            }  /* Forces Outlook.com to display normal line spacing. */
+
+	                        body {-webkit-text-size-adjust:none; -ms-text-size-adjust:none;} /* Prevents Webkit and Windows Mobile 
+	                        platforms from changing default font sizes. */
+
+	                        body {margin:0; padding:0;} /* Resets all body margins and padding to 0 for good measure */
+
+	                        table td {border-collapse:collapse;}    
+	                        /* This resolves the Outlook 07, 10, and Gmail td padding issue. */
+
+	                /****** END BUG FIXES ********/
+
+	                /****** RESETTING DEFAULTS, IT IS BEST TO OVERWRITE THESE STYLES INLINE ********/
+
+	                        p {margin:0; padding:0; margin-bottom:0;}  
+
+	                       h1, h2, h3, h4, h5, h6 {
+	                           color: black; 
+	                           line-height: 100%; 
+	                           }  
+
+	                       a, a:link {
+	                           color:#b4be00;
+	                           text-decoration: none;
+	                           }            
+
+	               /****** END RESETTING DEFAULTS ********/
+
+	               /****** EDITABLE STYLES        ********/
+
+	                    body, #body_style {
+	                        background:#fff;
+	                        min-height:1000px;
+	                        color:#000;
+	                        font-family: "Times New Roman", Times, serif;
+							background:url(images/bg.jpg);
+	                        font-size:12px;
+	                        }
 						
-						#view-online {
-							color: grey; 
-							font-size: 12px; 
-							padding: 20px;
-						}
-                         
-                      span.yshortcuts { color:#fff; background-color:none; border:none;}
-                      span.yshortcuts:hover,
-                      span.yshortcuts:active,
-                      span.yshortcuts:focus {color:#fff; background-color:none; border:none;}
-                                             
-                      /*Optional:*/
-                      a:visited { color: #3c96e2; text-decoration: none} 
-                      a:focus   { color: #3c96e2; text-decoration: underline}  
-                      a:hover   { color: #3c96e2; text-decoration: underline}  
-                        /* There is no way to set these inline so you have the option of adding pseudo class definitions here. They won't 
-                        work for Gmail nor older versions of Lotus Notes but it's a nice addition for all other clients. */
-                         
-                        /* Optimizing for mobile devices - (optional) */
-                        @media only screen and (max-device-width: 480px) {
-                            
-                            	body[yahoo] #container1 {display:block !important}  /* example style */
-                               	body[yahoo] p {font-size: 10px} /* example style */
-                        }       
-                         
-                        @media only screen and (min-device-width: 768px) and (max-device-width: 1024px)  {
-                           /* Here you can include rules for the iPad native email client. 
-                            
-                           Device viewport dimensions in pixels:
-                                703 x 1024 - portrait 
-                                1024 x 703 - landscape
-                            */
-                             
-                               	body[yahoo] #container1 {display:block !important} /*example style*/
-                               	body[yahoo] p {font-size: 12px} /*example style*/
-                        }              
-                
-               /*** END EDITABLE STYLES ***/                      
- 
- 
-</style>
+							#copyright {
+							font-size: 13px; 
+							line-height: 30px; 
+							font-family: "Times New Roman", Times, serif; color:#ffffff; 
+							font-weight:300; 
+							text-align:center;
+							width: 560px;
+							background-color: rgb(179, 190, 53);
+							margin: 20px auto;
+							}
+
+							#footer {
+								width: 700px; 
+								font-size: 13px; 
+								line-height: 22px; 
+								color: rgb(179, 190, 53); 
+								font-weight: 300; 
+								text-align: center; 
+								font-family: "Times New Roman", Times, serif;
+							}
+
+							#view-online {
+								color: grey; 
+								font-size: 12px; 
+								padding: 20px;
+							}
+							
+							#header {
+								background:url(images/header-bg.png);
+								width: 684px;
+								height: 135px;
+							}
+							
+							#logo {
+								margin-left: 25px;
+								margin-top: 20px;
+							}
+							
+							#phoneShip {
+								margin-top: 40px;
+
+							}
+							
+							#phoneNumbersTitle {
+								font-family: "Times New Roman", Times, serif;
+								font-size: 13px;
+								font-weight: 400;
+								text-align: left;
+								color: #999;
+							}
+							
+							.phoneNumbers {
+								color: #b8c050;
+								font-family: "Times New Roman", Times, serif;
+								font-weight: 800;
+								font-size: 20px;
+							}
+							
+							#shippingTable {
+								margin-top: 5px;
+							}
+							
+							#shippingInfoTitle {
+								font-family: "Times New Roman", Times, serif;
+								font-size: 13px;
+								font-weight: 800;
+								text-align: left;
+								color: #2c8dc9;
+							}
+							
+							#shipmentInfo {
+								font-family: "Times New Roman", Times, serif;
+								font-size: 10px;
+								font-weight: 400;
+								text-align: left;
+								color: #000;
+							}
+							
+							#headerDate {
+								margin-bottom: 12px;
+								margin-right: 110px;
+								text-align: right;
+								line-height:12px;
+								font-size: 16px;
+								font-family: "Times New Roman", Times, serif;
+								font-weight: 800;
+								color: #2c8dc9;
+							}
+							
+							#navigation {
+								background-image: url(images/nav-bg.png);
+								width: 684;
+								height: 35;
+							}
+							
+							#navigation,
+							#navigation a {
+								font-family: "Times New Roman", Times, serif;
+								color: #da5500;
+								font-weight: bold;
+								font-size: 17px;
+								text-decoration: none;
+								line-height: 30px;
+								text-align: right;
+							}
+							
+							.menu5 {
+								text-align: center;
+							}
+							
+							#product1 {
+								background-image: url(images/p1-bg.png);
+							}
+							
+							#product2 {
+								background-image: url(images/p2-bg.png);
+							}
+							
+							#product3 {
+								background-image: url(images/p3-bg.png);
+							}
+							
+							/* Text Links Style Reset*/
+							
+							#products a,
+							#otherProductsTab a,
+							#articlesTab a,
+							#articles a {
+							color: #737900;
+								text-decoration: none;
+							}
+							
+							.productImage {
+								margin-left: 55px;
+								
+							}
+							
+							.productTitle {
+								color: #b4be00;
+								font-family: "Times New Roman", Times, serif;
+								font-weight: 400;
+								font-size: 18px;
+								text-align: left;
+								width: 250px;
+								padding-top: 40px;
+								padding-left: 5px;
+							}
+							
+							.productTitleSpecial {
+								color: #fff;
+								font-family: "Times New Roman", Times, serif;
+								font-weight: 800;
+								font-size: 27px;
+								text-align: left;
+								padding-top: 40px;
+								text-shadow: 2px 0px 0px #de5600, 0px 2px 0px #de5600, 0px -2px 0px #de5600, -2px 0px 0px #de5600, 6px 4px 6px rgba(0,0,0,0.6);
+							}
+							
+							.productContext {
+								color: #999;
+								font-family: "Times New Roman", Times, serif;
+								font-size: 18px;
+								font-weight: 400;
+								line-height: 25px;
+								text-align: center;
+								font-style: italic;
+								padding-top: 10px;
+								padding-right: 70px;
+								
+							}
+							
+							.productPrice {
+								color: #fff;
+								font-family: "Times New Roman", Times, serif;
+								font-weight: 800;
+								font-size: 40px;
+								text-align: left;
+								padding-left: 55px;
+								text-shadow: 2px 0px 0px #de5600, 0px 2px 0px #de5600, 0px -2px 0px #de5600, -2px 0px 0px #de5600, 6px 4px 6px rgba(0,0,0,0.6);
+								
+							}
+							
+							#otherProductsTab {
+								background-image: url(images/tab-other-products.png);
+								width: 684px;
+								height: 60px;
+							}
+							
+							#otherProductsTabTitle {
+								color: #fff;
+								font-family: "Times New Roman", Times, serif;
+								text-align: center;
+								font-size: 24px;
+								padding-left: 35px;
+								padding-top: 15px;						
+								}
+								
+							#otherProductsTabContext {
+								color: #de5600;
+								font-family: "Times New Roman", Times, serif;
+								text-align: right;
+								font-size: 19px;
+								font-weight: 400;
+								padding-right: 80px;
+								padding-top: 20px;
+							}
+							
+							#otherProduct1 {
+								background-image: url(images/other-product-1-bg.png)
+								width: 240px;
+							}
+							
+							#otherProduct2 {
+								background-image: url(images/other-product-2-bg.jpg)
+								width: 204px;
+								
+							}
+							
+							#otherProduct3 {
+								background-image: url(images/other-product-3-bg.png)
+								width: 243px;
+							
+							}
+							
+							.otherProductImage {
+								margin-left: 20px;
+							}
+							
+							#otherProducts a{
+								color: #b4be00;
+								font-family: "Times New Roman", Times, serif;
+								font-size: 18px;
+								font-weight: 400;
+								text-align: center;
+								padding-right: 30px;
+							}
+							
+							#articlesTab {
+								background-image: url(images/tab-articles.png);
+								width: 684px;
+								height: 100px;
+							}
+							
+							#articlesTabTitle {
+								color: #fff;
+								font-family: "Times New Roman", Times, serif;
+								text-align: center;
+								font-size: 24px;
+								padding-left: 35px;
+								padding-top: 35px;	
+								font-weight: 800;					
+								}
+								
+							#articlesTabContext {
+								color: #de5600;
+								font-family: "Times New Roman", Times, serif;
+								text-align: right;
+								font-size: 19px;
+								font-weight: 400;
+								padding-right: 80px;
+								padding-top: 40px;
+							}
+							
+							#articles {
+								background-image: url(images/articles-bg.png);
+							}
+							
+							.articleTitleTableLeft {
+								background-image: url(images/article-title-bg.png);
+							}
+							
+							.articleTitleTableRight {
+								background-image: url(images/article-title-bg-2.png);
+							}
+							
+							.articleCategoryLeft {
+								color: #fff;
+								font-family: "Times New Roman", Times, serif;
+								font-weight: 800;
+								font-size: 24px;
+								text-align: center;
+								text-shadow: 2px 0px 0px #de5600, 0px 2px 0px #de5600, 0px -2px 0px #de5600, -2px 0px 0px #de5600, 6px 4px 6px rgba(0,0,0,0.6);
+								width: 142px;
+								padding-top: 5px;
+							}
+							
+							.articleTitleLeft {
+								color: #b4be00;
+								font-family: "Times New Roman", Times, serif;
+								font-weight: 400;
+								font-size: 18px;
+								text-align: center;
+								width: 453px;
+								padding-top: 10px;
+							}
+							
+							.articleCategoryRight {
+								color: #fff;
+								font-family: "Times New Roman", Times, serif;
+								font-weight: 800;
+								font-size: 24px;
+								text-align: center;
+								text-shadow: 2px 0px 0px #de5600, 0px 2px 0px #de5600, 0px -2px 0px #de5600, -2px 0px 0px #de5600, 6px 4px 6px rgba(0,0,0,0.6);
+								width: 142px;
+								padding-top: 5px;
+							}
+							
+							.articleTitleRight {
+								color: #b4be00;
+								font-family: "Times New Roman", Times, serif;
+								font-weight: 400;
+								font-size: 18px;
+								text-align: center;
+								width: 453px;
+								padding-top: 10px;
+							}
+							
+							.articleContextRight {
+								color: #999;
+								font-family: "Times New Roman", Times, serif;
+								font-size: 16px;
+								font-weight: 400;
+								line-height: 25px;
+								font-style: italic;
+								text-align: center;
+							}
+							
+							.articleContextLeft {
+								color: #999;
+								font-family: "Times New Roman", Times, serif;
+								font-size: 16px;
+								font-weight: 400;
+								line-height: 25px;
+								font-style: italic;
+								text-align: center;
+							}
+							
+							.articleImageRight {
+								padding-top: 20px;
+							}
+							
+							.articleImageLeft {
+								padding-top: 20px;
+							}
+							
+							#socialMedia {
+								background-image: url(images/ask-the-experts.png);
+							}
+							
+							#socialMedia a {
+								color: #999;
+								font-family: "Times New Roman", Times, serif;
+								font-size: 16px;
+								font-weight: 400;
+								line-height: 25px;
+								font-style: italic;
+								text-align: center;
+								text-decoration: none;
+							}
+							
+	                      	span.yshortcuts { color:#fff; background-color:none; border:none;}
+	                      	span.yshortcuts:hover,
+	                      	span.yshortcuts:active,
+	                      	span.yshortcuts:focus {color:#fff; background-color:none; border:none;}
+
+	                      /*Optional:*/
+	                      	a:visited { color: #3c96e2; text-decoration: none} 
+	                      	a:focus   { color: #3c96e2; text-decoration: underline}  
+	                      	a:hover   { color: #3c96e2; text-decoration: underline}  
+	                        /* There is no way to set these inline so you have the option of adding pseudo class definitions here. They won't 
+	                        work for Gmail nor older versions of Lotus Notes but it's a nice addition for all other clients. */
+
+	                        /* Optimizing for mobile devices - (optional) */
+	                        @media only screen and (max-device-width: 480px) {
+
+	                            	body[yahoo] #container1 {display:block !important}  /* example style */
+	                               	body[yahoo] p {font-size: 10px} /* example style */
+	                        }       
+
+	                        @media only screen and (min-device-width: 768px) and (max-device-width: 1024px)  {
+	                           /* Here you can include rules for the iPad native email client. 
+
+	                           Device viewport dimensions in pixels:
+	                                703 x 1024 - portrait 
+	                                1024 x 703 - landscape
+	                            */
+
+	                               	body[yahoo] #container1 {display:block !important} /*example style*/
+	                               	body[yahoo] p {font-size: 12px} /*example style*/
+	                        }              
+
+	               /*** END EDITABLE STYLES ***/                      
+
+
+	</style>
 
 </html>
